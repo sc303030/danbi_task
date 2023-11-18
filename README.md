@@ -4,7 +4,21 @@
 # 🚀 백엔드 개발 과제
 **업무(Task)를 위한 API**
 ## 🔖 **사용 방법**
-### 1️⃣ 객체 생성
+### 1️⃣ 가상환경 생성
+#### **Step 1: 가상환경 생성**
+```python
+python -m venv <가상환경이름>
+```
+- ex) `python -m venv venv`
+#### **Step 2: 가상환경 실행**
+```
+# macOS / Linux
+source <가상환경이름>/bin/activate
+
+# Windows
+<가상환경이름>\Scripts\activate
+```
+### 2️⃣ 객체 생성
 #### **Step 1: Team 객체 생성**
 
 - `User`모델이 team 필드를 가져야 하기에 먼저 `Team` 객체를 생성합니다.
@@ -16,11 +30,11 @@ python manage.py create_team_object
 ```python
 python manage.py create_user_object
 ```
-### 2️⃣ API 사용하기
+### 3️⃣ API 사용하기
 #### **Step 1: API 문서 참고**
 ➡️ **[API 문서 보러가기](https://documenter.getpostman.com/view/14425036/2s9YXpWegq#4fb7658a-74bf-4a83-994b-60fd50b12ccb)**
 
-### 3️⃣ 테스트
+### 4️⃣ 테스트
 #### **Step 1: pytest 실행**
 ```python
 pytest
