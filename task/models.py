@@ -1,6 +1,7 @@
+import re
+
 from django.conf import settings
 from django.db import models
-import re
 from django.utils import timezone
 from rest_framework.generics import get_object_or_404
 

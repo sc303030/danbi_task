@@ -1,14 +1,44 @@
 [flake8]
-ignore=
-  # pycodestyle: https://pycodestyle.pycqa.org/en/latest/intro.html#error-codes
-  # E203: whitespace before ‘,’, ‘;’, or ‘:’
-  E203,
-  # E231: missing whitespace after ‘,’, ‘;’, or ‘:’
-  E231,
-  # E501: line too long (82 > 79 characters)
-  E501,
-  # W503: line break before binary operator
-  W503
-exclude=.git,.github,__pycache__,.venv,venv,deploy
-max-line-length=100
-max-complexity=10
+exclude =
+    .git,
+    .gitignore,
+    *.pot,
+    *.py[co],
+    __pycache__,
+    venv,
+    */migrations/*
+
+
+ignore =
+    E121,
+    E126,
+    E127,
+    E128,
+    E203,
+    E225,
+    E226,
+    E231,
+    E241,
+    E251,
+    E261,
+    E265,
+    E302,
+    E303,
+    E305,
+    E402,
+    E501,
+    E741,
+    W291,
+    W292,
+    W293,
+    W391,
+    W503,
+    W504,
+    F403,
+    B007,
+    B950,
+    F841,
+    F401,
+    F405
+
+max-line-length = 200

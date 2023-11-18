@@ -1,6 +1,7 @@
 from django.contrib.auth.models import AbstractUser
 from django.db import models
-from task.models import Task, Team
+
+from task.models import Team
 
 
 class User(AbstractUser):
