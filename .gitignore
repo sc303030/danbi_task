@@ -3,3 +3,5 @@
 __pycache__
 accounts/migrations/*
 task/migrations/*
+.pytest_cache
+db.sqlite3
