@@ -23,6 +23,7 @@ source <가상환경이름>/bin/activate
 pip install -r requirements.txt
 ```
 ### 2️⃣ 객체 생성
+- migrations과 migrate후 진행하기
 #### **Step 1: Team 객체 생성**
 
 - `User`모델이 team 필드를 가져야 하기에 먼저 `Team` 객체를 생성합니다.
